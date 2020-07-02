@@ -1,8 +1,9 @@
 import React from 'react';
 
+import Card from '../../components/Card';
 import logo from '../../assets/logo.svg';
 import activity from '../../assets/activity.svg';
-import { Container, HeaderContainer, Menu, Nav, Hero, HeroContainer } from './styles';
+import { Container, HeaderContainer, Menu, Nav, Hero, HeroContainer, CardContainer, Cards } from './styles';
 
 const Home: React.FC = () => {
   return (
@@ -56,6 +57,16 @@ const Home: React.FC = () => {
           <img src={activity} alt="" />
         </HeroContainer>
       </Hero>
+      <CardContainer>
+        <Cards>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </Cards>
+      </CardContainer>
     </Container>
   );
 }

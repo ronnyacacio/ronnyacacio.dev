@@ -97,3 +97,18 @@ export const HeroContainer = styled.div`
     height: 300px;
   }
 `;
+
+export const CardContainer = styled.main`
+  margin-bottom: 80px;
+`;
+
+export const Cards = styled.section`
+  width: 90%;
+  max-width: 980px;
+
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+`;
