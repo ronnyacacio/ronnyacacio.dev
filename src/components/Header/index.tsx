@@ -28,7 +28,7 @@ export default function Header() {
           <Nav>
             <ul>
               <li>
-                <a href="https://www.linkedin.com/in/ronnyacacio/">Home</a>
+                <a href="https://ronnyacaciodev.netlify.app/">Home</a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/ronnyacacio/">Linkedin</a>
