@@ -47,3 +47,53 @@ export const Nav = styled.nav`
     }
   }
 `;
+
+export const Hero = styled.section`
+  margin: 80px 0;
+`;
+
+export const HeroContainer = styled.div`
+  width: 90%;
+  max-width: 980px;
+
+  margin: auto;
+
+  display: flex;
+
+  > div {
+    h2 {
+      color: rgb(75, 75, 75);
+      font-size: 3.6rem;
+      line-height: 4.6rem;
+    }
+
+    p {
+      color: rgb(154, 142, 191);
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+      margin: 10px 0px 0px;
+    }
+  }
+
+  a {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 15px 0px 0px;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 150ms linear 0s;
+    background-color: #536dfe;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  img {
+    width: auto;
+    height: 300px;
+  }
+`;

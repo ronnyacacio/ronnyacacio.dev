@@ -1,7 +1,8 @@
 import React from 'react';
 
 import logo from '../../assets/logo.svg';
-import { Container, HeaderContainer, Menu, Nav } from './styles';
+import activity from '../../assets/activity.svg';
+import { Container, HeaderContainer, Menu, Nav, Hero, HeroContainer } from './styles';
 
 const Home: React.FC = () => {
   return (
@@ -37,6 +38,24 @@ const Home: React.FC = () => {
 
         </HeaderContainer>
       </header>
+      <Hero>
+        <HeroContainer>
+          <div>
+            <h2>
+              Bem vindo! Esse site mostra um pequeno resumo sobre mim e meus
+              projetos!
+            </h2>
+            <p>
+              Me chamo <b>Ronny Acácio</b> e sou um apaixonado por resolver
+            problemas com tecnologias, tenho 20 anos, sou graduando em Ciências
+            da Computação na Universidade Federal do Ceará - UFC e atualmente
+            estudo a stack Node.js, ReactJS e React Native.
+            </p>
+            <a href="https://www.linkedin.com/in/ronnyacacio/">Fale comigo no linkedin :{')'}</a>
+          </div>
+          <img src={activity} alt="" />
+        </HeroContainer>
+      </Hero>
     </Container>
   );
 }
