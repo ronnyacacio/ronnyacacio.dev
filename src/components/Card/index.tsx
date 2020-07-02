@@ -1,24 +1,36 @@
-import React from 'react';
+import React, { Dispatch, SetStateAction } from 'react';
 
+import { loadCards, loadClones } from '../../services/api';
 import { Container, Image, Content } from './styles';
 
-interface Props {
-  card: {
-    title: string;
-    description: string;
-    clone: boolean;
-    image_name: string;
-    github_url: string;
-  }
+interface Card {
+  title: string;
+  description: string;
+  image_name: string;
+  github_url: string;
 }
 
-const Card: React.FC<Props> = ({ card }) => {
-  function handleNavigateToGithub(url: string) {
-    window.open(url);
+interface Props {
+  card: Card;
+  setCards: Dispatch<SetStateAction<Card[]>>
+}
+
+const Card: React.FC<Props> = ({ card, setCards }) => {
+  function handleNavigateToGithub(card: Card) {
+    if (card.title === 'Ui Clones') {
+      setCards(loadClones());
+      return;
+    }
+
+    if (card.title === 'Projetos') {
+      setCards(loadCards());
+      return;
+    }
+    window.open(card.github_url);
   }
 
   return (
-    <Container onClick={() => handleNavigateToGithub(card.github_url)}>
+    <Container onClick={() => handleNavigateToGithub(card)}>
       <Image>
         <img src={require(`../../assets/${card.image_name}`)} alt={card.title} />
       </Image>
@@ -28,9 +40,6 @@ const Card: React.FC<Props> = ({ card }) => {
         <p>
           {card.description}
         </p>
-        <div>
-          {card.clone && <p>clone</p>}
-        </div>
       </Content>
     </Container>
   );

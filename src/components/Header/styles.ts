@@ -5,7 +5,7 @@ interface PropOn {
 }
 
 export const Container = styled.header`
-  background-color: #536dfe;
+  background-color: #333;
 
   @media (max-width: 910px) {
     margin-bottom: -100px;
@@ -41,7 +41,7 @@ export const Menu = styled.div<PropOn>`
         width: 100vw;
         height: 100vh;
 
-        background-color: #536dfe;
+        background-color: #333;
 
         display: flex;
         justify-content: center;

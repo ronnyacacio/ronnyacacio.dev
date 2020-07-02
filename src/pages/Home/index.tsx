@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { loadCards } from '../../services/api';
-import { Card } from '../../components/';
+import { Card } from '../../components';
 import activity from '../../assets/activity.svg';
-import { Container, Hero, HeroContainer, CardContainer, Cards } from './styles';
+import { Hero, HeroContainer, CardContainer, Cards } from './styles';
 
-
-const cards = loadCards();
+interface ICard {
+  title: string;
+  description: string;
+  image_name: string;
+  github_url: string;
+}
 
 const Home: React.FC = () => {
+  const [cards, setCards] = useState<ICard[]>([]);
+
+  useEffect(() => {
+    setCards(loadCards());
+  }, []);
+
   return (
-    <Container>
+    <>
       <Hero>
         <HeroContainer>
           <div>
@@ -21,8 +31,7 @@ const Home: React.FC = () => {
             <p>
               Me chamo <b>Ronny Acácio</b> e sou um apaixonado por resolver
             problemas com tecnologias, tenho 20 anos, sou graduando em Ciências
-            da Computação na Universidade Federal do Ceará - UFC e atualmente
-            estudo a stack Node.js, ReactJS e React Native.
+            da Computação na Universidade Federal do Ceará - UFC.
             </p>
             <a href="https://www.linkedin.com/in/ronnyacacio/">Fale comigo no linkedin :{')'}</a>
           </div>
@@ -31,10 +40,10 @@ const Home: React.FC = () => {
       </Hero>
       <CardContainer>
         <Cards>
-          {cards.map(card => <Card card={card} />)}
+          {cards.map(card => <Card card={card} setCards={setCards} />)}
         </Cards>
       </CardContainer>
-    </Container>
+    </>
   );
 }
 

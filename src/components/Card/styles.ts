@@ -1,10 +1,9 @@
 import styled from 'styled-components';
-import { darken } from 'polished';
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #536dfe;
+  background-color: #333;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 
@@ -44,20 +43,5 @@ export const Content = styled.div`
     line-height: 2.6rem;
     font-weight: 400;
     color: #ecf0f1;
-  }
-
-  > div {
-    width: 60px;
-    display: flex;
-    justify-content: center;
-    border-radius: 40%;
-    background-color: ${darken(0.04, '#536dfe')};
-
-    p {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      font-weight: 400;
-      color: #ecf0f1;
-    }
   }
 `;

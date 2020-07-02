@@ -28,7 +28,7 @@ export default function Header() {
           <Nav>
             <ul>
               <li>
-                <a href="https://github.com/ronnyacacio">Home</a>
+                <a href="https://www.linkedin.com/in/ronnyacacio/">Home</a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/ronnyacacio/">Linkedin</a>
@@ -37,7 +37,7 @@ export default function Header() {
                 <a href="https://github.com/ronnyacacio">GitHub</a>
               </li>
               <li>
-                <a href="https://github.com/ronnyacacio">Currículo</a>
+                <a href="https://drive.google.com/file/d/1ckQL1-SbHg9SyCnZGfmwp44-g_lFiXCr/view?usp=sharing">Currículo</a>
               </li>
             </ul>
           </Nav>
