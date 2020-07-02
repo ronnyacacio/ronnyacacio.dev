@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 export const Image = styled.div`
   width: 100%;
-  padding-top: 56.25%; /* 16:9 */
+  padding-top: 57%;
 
   overflow: hidden;
   position: relative;
@@ -35,10 +35,11 @@ export const Content = styled.div`
   > h3 {
     font-size: 20px;
     color: #ecf0f1;
+    margin-bottom: 20px;
   }
 
   > p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 1.6rem;
     line-height: 2.6rem;
     font-weight: 400;
