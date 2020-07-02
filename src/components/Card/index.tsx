@@ -2,19 +2,34 @@ import React from 'react';
 
 import { Container, Image, Content } from './styles';
 
-const Card: React.FC = () => {
+interface Props {
+  card: {
+    title: string;
+    description: string;
+    clone: boolean;
+    image_name: string;
+    github_url: string;
+  }
+}
+
+const Card: React.FC<Props> = ({ card }) => {
+  function handleNavigateToGithub(url: string) {
+    window.open(url);
+  }
+
   return (
-    <Container>
+    <Container onClick={() => handleNavigateToGithub(card.github_url)}>
       <Image>
-        <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" alt="Projeto" />
+        <img src={require(`../../assets/${card.image_name}`)} alt={card.title} />
       </Image>
 
       <Content>
+        <h3>{card.title}</h3>
         <p>
-          Formulário Animado com JS puro e CSS Animation | Mayk Brito
+          {card.description}
         </p>
         <div>
-          <p>57 Min</p>
+          {card.clone && <p>clone</p>}
         </div>
       </Content>
     </Container>

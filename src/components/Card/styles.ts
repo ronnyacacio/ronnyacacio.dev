@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { darken } from 'polished';
 
 export const Container = styled.div`
   display: flex;
@@ -31,6 +32,11 @@ export const Image = styled.div`
 export const Content = styled.div`
   margin: 20px;
 
+  > h3 {
+    font-size: 20px;
+    color: #ecf0f1;
+  }
+
   > p {
     margin-bottom: 20px;
     font-size: 1.6rem;
@@ -40,9 +46,11 @@ export const Content = styled.div`
   }
 
   > div {
+    width: 60px;
     display: flex;
-    align-self: end;
-    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    background-color: ${darken(0.04, '#536dfe')};
 
     p {
       font-size: 1.6rem;

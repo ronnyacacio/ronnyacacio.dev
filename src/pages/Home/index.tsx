@@ -5,6 +5,10 @@ import logo from '../../assets/logo.svg';
 import activity from '../../assets/activity.svg';
 import { Container, HeaderContainer, Menu, Nav, Hero, HeroContainer, CardContainer, Cards } from './styles';
 
+import { loadCards } from '../../services/api';
+
+const cards = loadCards();
+
 const Home: React.FC = () => {
   return (
     <Container>
@@ -59,12 +63,7 @@ const Home: React.FC = () => {
       </Hero>
       <CardContainer>
         <Cards>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {cards.map(card => <Card card={card} />)}
         </Cards>
       </CardContainer>
     </Container>
