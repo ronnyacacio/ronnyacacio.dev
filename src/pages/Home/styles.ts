@@ -59,15 +59,11 @@ export const HeroContainer = styled.div`
   }
 `;
 
-export const CardContainer = styled.main`
-  margin-bottom: 80px;
-`;
-
-export const Cards = styled.section`
+export const CardGrid = styled.section`
   width: 90%;
   max-width: 980px;
 
-  margin: auto;
+  margin: auto auto 80px;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

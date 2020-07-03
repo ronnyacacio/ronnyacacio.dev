@@ -1,24 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { loadCards } from '../../services/api';
-import { Card } from '../../components';
+import { Cards } from '../../components';
 import activity from '../../assets/activity.svg';
-import { Hero, HeroContainer, CardContainer, Cards } from './styles';
-
-interface ICard {
-  title: string;
-  description: string;
-  image_name: string;
-  github_url: string;
-}
+import { Hero, HeroContainer, CardGrid } from './styles';
 
 const Home: React.FC = () => {
-  const [cards, setCards] = useState<ICard[]>([]);
-
-  useEffect(() => {
-    setCards(loadCards());
-  }, []);
-
   return (
     <>
       <Hero>
@@ -38,11 +24,9 @@ const Home: React.FC = () => {
           <img src={activity} alt="" />
         </HeroContainer>
       </Hero>
-      <CardContainer>
-        <Cards>
-          {cards.map(card => <Card key={card.title} card={card} setCards={setCards} />)}
-        </Cards>
-      </CardContainer>
+      <CardGrid>
+        <Cards />
+      </CardGrid>
     </>
   );
 }
