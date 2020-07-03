@@ -40,7 +40,7 @@ const Home: React.FC = () => {
       </Hero>
       <CardContainer>
         <Cards>
-          {cards.map(card => <Card card={card} setCards={setCards} />)}
+          {cards.map(card => <Card key={card.title} card={card} setCards={setCards} />)}
         </Cards>
       </CardContainer>
     </>
