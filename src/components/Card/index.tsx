@@ -19,11 +19,13 @@ const Card: React.FC<Props> = ({ card, setCards }) => {
   function handleNavigateToGithub(card: Card) {
     if (card.title === 'Ui Clones') {
       setCards(loadClones());
+      window.scroll(0, 500);
       return;
     }
 
     if (card.title === 'Projetos') {
       setCards(loadCards());
+      window.scroll(0, 500);
       return;
     }
     window.open(card.github_url);
