@@ -30,7 +30,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const Menu = styled.div<PropOn>`
-  @media (max-width: 590px) {
+  @media (max-width: 690px) {
     ${({ on }) =>
       on &&
       css`
@@ -69,7 +69,7 @@ export const Menu = styled.div<PropOn>`
 `;
 
 export const MenuToggle = styled.div<PropOn>`
-  @media (max-width: 590px) {
+  @media (max-width: 690px) {
     width: 40px;
     height: 30px;
     margin-right: 20px;
@@ -85,7 +85,7 @@ export const MenuToggle = styled.div<PropOn>`
 `;
 
 export const One = styled.div<PropOn>`
-  @media (max-width: 590px) {
+  @media (max-width: 690px) {
     background-color: #fff;
     height: 5px;
     width: 100%;
@@ -102,7 +102,7 @@ export const One = styled.div<PropOn>`
 `;
 
 export const Two = styled.div<PropOn>`
-  @media (max-width: 590px) {
+  @media (max-width: 690px) {
     background-color: #fff;
     height: 5px;
     width: 100%;
@@ -119,7 +119,7 @@ export const Two = styled.div<PropOn>`
 `;
 
 export const Three = styled.div<PropOn>`
-  @media (max-width: 590px) {
+  @media (max-width: 690px) {
     background-color: #fff;
     height: 5px;
     width: 100%;
@@ -157,7 +157,7 @@ export const Nav = styled.nav`
     }
   }
 
-  @media (max-width: 590px) {
+  @media (max-width: 690px) {
     display: none;
   }
 `;

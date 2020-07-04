@@ -20,8 +20,11 @@ export const Container = styled.div`
   ::-webkit-scrollbar-track {
     background-color: #222;
   }
-  @media (max-width: 910px) {
-    overflow-y: auto;
+
+  @media (max-width: 690px) {
+    ::-webkit-scrollbar {
+      display: none;
+    }
   }
 `;
 

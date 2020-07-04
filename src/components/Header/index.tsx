@@ -32,16 +32,16 @@ export default function Header() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about">Sobre</Link>
+              </li>
+              <li>
+                <a href="https://drive.google.com/file/d/1ckQL1-SbHg9SyCnZGfmwp44-g_lFiXCr/view?usp=sharing">Currículo</a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/ronnyacacio/">Linkedin</a>
               </li>
               <li>
                 <a href="https://github.com/ronnyacacio">GitHub</a>
-              </li>
-              <li>
-                <a href="https://drive.google.com/file/d/1ckQL1-SbHg9SyCnZGfmwp44-g_lFiXCr/view?usp=sharing">Currículo</a>
               </li>
             </ul>
           </Nav>
