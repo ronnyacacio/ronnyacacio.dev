@@ -64,14 +64,6 @@ export function loadProjects() {
       image_url:
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/aircnc.svg',
     },
-    {
-      title: 'Ui Clones',
-      description:
-        'Aqui estão todos os meus clones de softwares famosos, como a page home do Discord, YouTube, PipeFy, app do PicPay... Entre outros, dê uma olhada, garanto que estão idênticos!',
-      github_url: '#',
-      image_url:
-        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/clones.svg',
-    },
   ];
 }
 
@@ -124,14 +116,6 @@ export function loadClones() {
       github_url: 'https://github.com/ronnyacacio/netflix-clone',
       image_url:
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/netflix.svg',
-    },
-    {
-      title: 'Projetos',
-      description:
-        'Aqui estão todos os meus projetos pessoais. Volte a vê-los :)',
-      github_url: '#',
-      image_url:
-        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/projects.svg',
     },
   ];
 }

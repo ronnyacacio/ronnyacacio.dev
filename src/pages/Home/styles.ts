@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+interface IOption {
+  selected: boolean;
+}
+
 export const Hero = styled.section`
   margin: 80px 0;
 `;
@@ -57,6 +61,30 @@ export const HeroContainer = styled.div`
     flex-direction: column;
     text-align: center;
   }
+`;
+
+export const Options = styled.section`
+  width: 90%;
+  max-width: 980px;
+
+  margin: auto auto 20px;
+  display: flex;
+  flex-direction: row;
+`;
+
+export const Option = styled.h2<IOption>`
+  color: #fff;
+
+  font-size: 2rem;
+  line-height: 3.2rem;
+
+  text-decoration: ${({ selected }) => selected && 'underline'};
+
+  & + h2 {
+    margin-left: 30px;
+  }
+
+  cursor: pointer;
 `;
 
 export const CardGrid = styled.section`

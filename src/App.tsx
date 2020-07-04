@@ -1,14 +1,12 @@
 import React from 'react';
 
-import Home from './pages/Home';
-import { Header } from './components';
+import Routes from './routes';
 import GlobalStyle from './styles/global';
 
 const App: React.FC = () => {
   return (
     <>
-      <Header />
-      <Home />
+      <Routes />
       <GlobalStyle />
     </>
   );

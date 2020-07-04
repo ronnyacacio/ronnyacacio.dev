@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import logo from '../../assets/logo.svg';
 import { Container, HeaderContainer, Menu, MenuToggle, One, Two, Three, Nav } from './styles';
@@ -28,7 +29,7 @@ export default function Header() {
           <Nav>
             <ul>
               <li>
-                <a href="https://ronnyacaciodev.netlify.app/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/ronnyacacio/">Linkedin</a>
