@@ -42,6 +42,12 @@ Como todos sabemos, nós desenvolvedores temos que investir bastante no nosso ma
     <img src=".github/dev.gif" />
 </h1>
 
+## 🌐 Preview Mobile
+
+<h1 align="center">
+    <img src=".github/mobile.gif" />
+</h1>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
