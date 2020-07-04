@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { loadProjects, loadClones } from '../../services/api';
-import { Header, Card } from '../../components';
+import { Wrapper, Header, Card } from '../../components';
 import activity from '../../assets/activity.svg';
-import { Container, Hero, HeroContainer, Options, Option, CardGrid } from './styles';
+import { Hero, HeroContainer, Options, Option, CardGrid } from './styles';
 
 interface ICard {
   title: string;
@@ -27,7 +27,7 @@ const Home: React.FC = () => {
   }, [selectedClone]);
 
   return (
-    <Container>
+    <Wrapper>
       <Header />
       <Hero>
         <HeroContainer>
@@ -53,7 +53,7 @@ const Home: React.FC = () => {
       <CardGrid>
         {cards.map(card => <Card key={card.title} card={card} />)}
       </CardGrid>
-    </Container>
+    </Wrapper>
   );
 }
 

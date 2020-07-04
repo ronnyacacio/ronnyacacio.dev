@@ -1,14 +1,13 @@
 import React from 'react';
 
-import { Header } from '../../components';
-import { Container } from './styles';
+import { Wrapper, Header } from '../../components';
 
 const About: React.FC = () => {
   return (
-    <Container>
+    <Wrapper>
       <Header />
         About
-    </Container>
+    </Wrapper>
   );
 }
 
