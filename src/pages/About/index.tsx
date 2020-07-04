@@ -5,12 +5,10 @@ import { Container } from './styles';
 
 const About: React.FC = () => {
   return (
-    <>
+    <Container>
       <Header />
-      <Container>
         About
-      </Container>
-    </>
+    </Container>
   );
 }
 
