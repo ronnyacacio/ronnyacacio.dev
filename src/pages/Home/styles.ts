@@ -4,30 +4,6 @@ interface IOption {
   selected: boolean;
 }
 
-export const Container = styled.div`
-  overflow-y: scroll;
-  max-height: 100vh;
-
-  ::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #555;
-    border-radius: 4px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: #222;
-  }
-
-  @media (max-width: 690px) {
-    ::-webkit-scrollbar {
-      display: none;
-    }
-  }
-`;
-
 export const Hero = styled.section`
   margin: 80px 0;
 `;
