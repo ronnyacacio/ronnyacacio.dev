@@ -95,14 +95,3 @@ export const Skills = styled.section`
     text-align: center;
   }
 `;
-
-export const SkillsGrid = styled.div`
-  width: 90%;
-  max-width: 980px;
-
-  margin: auto auto 80px;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
-`;

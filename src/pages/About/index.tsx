@@ -31,12 +31,12 @@ const About: React.FC = () => {
         <img src={skills} alt="Competências" />
         <div>
           <Title>Competências</Title>
-          <p><b>Forte: </b>ReactJS, React Native, Node.js, Redux, Express, Styled Components, ES6,
+          <p><b>Forte: </b>ReactJS, React Native, Node.js, TypeScript, Redux, Express, Styled Components, ES6,
             JSON, CSS, Git, Sequelize ORM, Postgres, mongoDB, Docker, Autenticação JWT,
             REST APIs, Design System (Bootstrap), Responsividade
           </p>
           <p>
-            <b>Conhecedor:</b> TypeScript, TypeORM, Prisma, AdonisJS, GraphQL, Flutter, Dart,
+            <b>Conhecedor:</b> AWS S3, TypeORM, Prisma, AdonisJS, GraphQL, Flutter, Dart,
             Java, PHP, MySQL, C, C++
           </p>
         </div>
