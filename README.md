@@ -8,22 +8,22 @@
   </a>
 
   <a href="#">
-    <img alt="Languages" src="https://img.shields.io/github/languages/count/ronnyacacio/meme-maker?color=00BFA6&style=flat-square">
+    <img alt="Languages" src="https://img.shields.io/github/languages/count/ronnyacacio/ronnyacacio.dev?color=00BFA6&style=flat-square">
   </a>
 
-  <a href="https://github.com/ronnyacacio/meme-maker/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/ronnyacacio/meme-maker?color=00BFA6&style=flat-square">
+  <a href="https://github.com/ronnyacacio/ronnyacacio.dev/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/ronnyacacio/ronnyacacio.dev?color=00BFA6&style=flat-square">
   </a>
 
-  <a href="https://github.com/ronnyacacio/meme-maker/commits/master">
-    <img alt="LastCommit" src="https://img.shields.io/github/last-commit/ronnyacacio/meme-maker?color=00BFA6&style=flat-square">
+  <a href="https://github.com/ronnyacacio/ronnyacacio.dev/commits/master">
+    <img alt="LastCommit" src="https://img.shields.io/github/last-commit/ronnyacacio/ronnyacacio.dev?color=00BFA6&style=flat-square">
   </a>
 
   <a href="#">
-    <img alt="RepoSize" src="https://img.shields.io/github/repo-size/ronnyacacio/meme-maker?color=00BFA6&style=flat-square">
+    <img alt="RepoSize" src="https://img.shields.io/github/repo-size/ronnyacacio/ronnyacacio.dev?color=00BFA6&style=flat-square">
   </a>
 
-  <a href="https://github.com/ronnyacacio/meme-maker/blob/master/LICENSE.md">
+  <a href="https://github.com/ronnyacacio/ronnyacacio.dev/blob/master/LICENSE.md">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=00BFA6&style=flat-square">
   </a>
 </p>
@@ -32,7 +32,9 @@
 
 ## 💻 Projeto
 
-Como todos sabemos, nós desenvolvedores temos que investir bastante no nosso marketing pessoal e tentar mostrar o nosso conhecimento o máximo possível, sendo assim, resolvi criar esse site totalmente com ReactJS, para que todos possam me conhecer melhor, ver os meus projetos pessoais e saber quais tecnologias eu domino e estou estudando!
+Como todos sabemos, nós desenvolvedores temos que investir bastante no nosso marketing pessoal e tentar mostrar o nosso conhecimento o máximo possível, sendo assim, resolvi criar esse site totalmente responsivo com ReactJS, para que todos possam me conhecer melhor, ver os meus projetos pessoais e saber quais tecnologias eu domino e estou estudando!
+
+<br />
 
 ## 🌐 Preview
 
