@@ -86,6 +86,14 @@ export function loadClones() {
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/discord.svg',
     },
     {
+      title: 'Twitter',
+      description:
+        'Um clone da saturada e linda interface Home do Twitter, feito com TypeScript e, além disso, sendo totalmente responsiva.',
+      github_url: 'https://github.com/ronnyacacio/twitter-clone',
+      image_url:
+        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/twitter.svg',
+    },
+    {
       title: 'PicPay',
       description:
         'Depois de ver a saturada interface do app do PicPay resolvi implementá-la com Expo. Além disso fiz um theme switcher na aplicação.',
