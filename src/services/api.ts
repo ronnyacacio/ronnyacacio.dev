@@ -9,12 +9,12 @@ export function loadProjects() {
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/ecoleta.svg',
     },
     {
-      title: 'GoBarber',
+      title: 'FastFeet',
       description:
-        'Aplicação para fornecer agendamentos de serviços entre barbeiros e clientes. Onde o prestador utiliza a parte WEB e o cliente o app mobile.',
-      github_url: 'https://github.com/ronnyacacio/go-barber',
+        'Aplicação para gerenciamento de uma transportadora. Com parte WEB para a empresa controlar as encomendas e o app mobile para os entregadores darem feedback sobre a entrega!',
+      github_url: 'https://github.com/ronnyacacio/fast-feet',
       image_url:
-        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/gobarber.svg',
+        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/fastfeet.svg',
     },
     {
       title: 'MemeMaker',
@@ -23,6 +23,14 @@ export function loadProjects() {
       github_url: 'https://github.com/ronnyacacio/meme-maker',
       image_url:
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/mememaker.svg',
+    },
+    {
+      title: 'GoBarber',
+      description:
+        'Aplicação para fornecer agendamentos de serviços entre barbeiros e clientes. Onde o prestador utiliza a parte WEB e o cliente o app mobile.',
+      github_url: 'https://github.com/ronnyacacio/go-barber',
+      image_url:
+        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/gobarber.svg',
     },
     {
       title: 'Who is the Pokémon',
