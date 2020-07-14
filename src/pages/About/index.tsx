@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Wrapper, Header } from '../../components';
-import profile from '../../assets/images/profile.jpeg';
+import profile from '../../assets/images/profile.jpg';
 import skills from '../../assets/skills.svg';
 import { Profile, ProfileContainer, Title, Skills } from './styles';
 
