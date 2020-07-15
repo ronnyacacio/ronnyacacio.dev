@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="MemeMaker" title="#delicinha" src=".github/logo.svg" width="300px"/>
+  <img alt="ronnyacacio.dev" title="#delicinha" src=".github/logo.svg" width="300px"/>
 </h1>
 
 <p align="center">
