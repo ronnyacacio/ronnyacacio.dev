@@ -86,12 +86,12 @@ export function loadClones() {
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/youtube.svg',
     },
     {
-      title: 'Discord',
+      title: 'TikTok',
       description:
-        'Como todo mundo fala da interface do discord, aqui esta um clone dessa maravilha, totalmente implementado com TypeScript.',
-      github_url: 'https://github.com/ronnyacacio/discord-clone',
+        'Clone da screen inicial do app TikTok, com o feed de vídeos sendo aplicado de uma forma muito parecida. Tudo feito com React Native!',
+      github_url: 'https://github.com/ronnyacacio/tiktok-clone',
       image_url:
-        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/discord.svg',
+        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/tiktok.svg',
     },
     {
       title: 'Twitter',
@@ -102,6 +102,14 @@ export function loadClones() {
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/twitter.svg',
     },
     {
+      title: 'Discord',
+      description:
+        'Como todo mundo fala da interface do discord, aqui esta um clone dessa maravilha, totalmente implementado com TypeScript.',
+      github_url: 'https://github.com/ronnyacacio/discord-clone',
+      image_url:
+        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/discord.svg',
+    },
+    {
       title: 'PicPay',
       description:
         'Depois de ver a saturada interface do app do PicPay resolvi implementá-la com Expo. Além disso fiz um theme switcher na aplicação.',
@@ -110,20 +118,20 @@ export function loadClones() {
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/picpay.svg',
     },
     {
-      title: 'Nubank',
-      description:
-        'Um clone da screen home do app da Nubank com todos os gestos e animações implementadas.',
-      github_url: 'https://github.com/ronnyacacio/nubank-clone',
-      image_url:
-        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/nubank.svg',
-    },
-    {
       title: 'PipeFy',
       description:
         "O PipeFy possui um sistema interessante de drg'n drop na sua tela home, por isso, resolvi refazer isso eu mesmo, dê uma olhada!",
       github_url: 'https://github.com/ronnyacacio/pipefy-clone',
       image_url:
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/pipefy.svg',
+    },
+    {
+      title: 'Nubank',
+      description:
+        'Um clone da screen home do app da Nubank com todos os gestos e animações implementadas.',
+      github_url: 'https://github.com/ronnyacacio/nubank-clone',
+      image_url:
+        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/nubank.svg',
     },
     {
       title: 'Netflix',
