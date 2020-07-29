@@ -25,6 +25,14 @@ export function loadProjects() {
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/mememaker.svg',
     },
     {
+      title: 'Aluraflix',
+      description:
+        'Uma aplicação baseada na Netflix onde você pode criar categorias e adicionar vídeos relacionados à mesma para depois lista-lós em uma interface muito amigável!',
+      github_url: 'https://github.com/ronnyacacio/aluraflix',
+      image_url:
+        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/aluraflix.svg',
+    },
+    {
       title: 'GoBarber',
       description:
         'Aplicação para fornecer agendamentos de serviços entre barbeiros e clientes. Onde o prestador utiliza a parte WEB e o cliente o app mobile.',
