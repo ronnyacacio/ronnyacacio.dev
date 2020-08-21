@@ -126,6 +126,14 @@ export function loadClones() {
         'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/picpay.svg',
     },
     {
+      title: 'Rocketseat-login',
+      description:
+        'Um clone da tela de login da plataforma Skylab da Rocketseat. Visando a simplificação e produtividade fiz uso de Next JS em conjunto com o desing system Chakra UI!',
+      github_url: 'https://github.com/ronnyacacio/skylab-login-clone',
+      image_url:
+        'https://s3-sa-east-1.amazonaws.com/ronnyacacio.dev/rocketseat.svg',
+    },
+    {
       title: 'PipeFy',
       description:
         "O PipeFy possui um sistema interessante de drg'n drop na sua tela home, por isso, resolvi refazer isso eu mesmo, dê uma olhada!",
